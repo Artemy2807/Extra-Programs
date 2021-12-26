@@ -75,6 +75,7 @@ void loop() {
     //speed = 0;
    // analogWrite(PWM_MOTOR, speed);
   }
+  analogWrite(PWM_MOTOR, speed);
 }
 
 void upd_encoder() {
